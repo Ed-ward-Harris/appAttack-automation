@@ -569,7 +569,7 @@ handle_step_by_step_guide_Pentest(){
 
 # Function to run nmap
 run_nmap(){
-    output_file="${output}_nmap"
+    output_file="${output}_nmap.txt"
     read -p "Enter URL or IP address to scan: " url
     if [[ "$output_to_file" == "y" ]]; then
         nmap_output=$(nmap -oN "$output_file" "$url")
