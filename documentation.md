@@ -37,22 +37,16 @@ The AppAttack Toolkit is a versatile, terminal-based tool for penetration testin
 - [Wifiphisher](https://wifiphisher.org/): A rogue access point framework for phishing and man-in-the-middle attacks.
 - [Wireshark](https://www.wireshark.org/): A network protocol analyzer and packet capture tool.
 - [Yersinia](https://github.com/tomac/yersinia): A tool for performing Layer 2 network attacks.
-
-
+<br></br>
 ## Setup Guide
 1. Environment
    - It is recommended that you run the tool in [Kali Linux](https://www.kali.org/get-kali/#kali-platforms). 
    - Use Virtualisation software such as [Virtual Box](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html).
 2. Installation
-   - Once you have kali up and running read the [README](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/README.md) for installation instructions.
-
-
-## Info for devs
+   - Once you have kali up and running read the [README](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/README.md) for installation instructions.]
+<br></br>
+## Info for Devs
 The tool is split up into different files. Below each file is explained.
-
-
-
-
 
 ### install.sh
 This file handles the global installation of the toolkit (creates a symlink). This enables us to call appAttack_toolkit from anywhere to run the too, instead of having to call ./main.sh from the correct location. This file will also invoke first_run.sh
@@ -98,13 +92,12 @@ This is simply just global varibales that hold colour values so we can keep the 
 ### utilities.sh
 This file contains misc functions such as generating ai insights and output logging. In future these could be split into their own files if these functionalities get expanded upon.
 
-
 ---
 
 ### To Add a New Tool
-1. Write the install function in `install.sh`, call that function in `main.sh` and `first_run.sh1`
-2. Write the update function for the tool in `update.sh`
-3. Create a function in `run_tools.sh` with the specified paramaters (make sure it accepts logging)
-4. Include a step-by-step guide in `step_by_step.sh`
-5. In the `menus.sh` file update the appropriate menu to display the new tool and make corresponding handle function is also updated
+1. Write the install function in `install.sh`, call that function in `main.sh` and `first_run.sh1`.
+2. Write the update function for the tool in `update.sh`.
+3. Create a function in `run_tools.sh` with the specified paramaters (make sure it accepts logging).
+4. Include a step-by-step guide in `step_by_step.sh`.
+5. In the `menus.sh` file update the appropriate menu to display the new tool and make corresponding handle function is also updated.
 
