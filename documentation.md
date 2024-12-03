@@ -4,7 +4,7 @@ The AppAttack Toolkit is a comprehensive penetration testing and secure coding t
 
 ---
   
-**The toolkit incorporates many different tools:**
+**The toolkit incorporates many different tools:** 
 ### Penetration Testing Tools 
 - [nmap](https://nmap.org/) Network exploration and security auditing tool
 - [nikto](https://github.com/sullo/nikto/tree/master) Web server scanner
@@ -40,9 +40,12 @@ The AppAttack Toolkit is a comprehensive penetration testing and secure coding t
 
 
 ## Setup Guide
-It is reccommended that you run the tool in [Kali Linux](https://www.kali.org/get-kali/#kali-platforms). 
-Using Virtualisation software such as [Virtual Box](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html).
-Once you have kali up and running read the [README](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/README.md) for installation instructions. 
+1. Environment
+   - It is recommended that you run the tool in [Kali Linux](https://www.kali.org/get-kali/#kali-platforms). 
+   - Use Virtualisation software such as [Virtual Box](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html).
+2. Installation
+   - Once you have kali up and running read the [README](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/README.md) for installation instructions.
+
 
 ## Info for devs
 The tool is split up into different files. Below each file is explained.
@@ -56,7 +59,53 @@ Any file other than the setup files (install.sh, first_run.sh) need to be source
 ```bash
 source "$SCRIPT_DIR/file.sh"
 ```
-When your soure a file, that entire file will run sequentially so make sure all code is contained within functions. All code that is not in a function should be in main.sh, unless you are declaring global variable such as in the colours.sh file.
+When your source a file, that entire file will run sequentially so make sure all code is contained within functions Oherwise th code will run before main. All code that is not in a function should be in main.sh, unless you are declaring global variables such as in the colours.sh file.
+
+### install.sh
+This file handles the global installation of the toolkit (creates a symlink). This enables us to call appAttack_toolkit from anywhere to run the too, instead of having to call ./main.sh from the correct location.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
