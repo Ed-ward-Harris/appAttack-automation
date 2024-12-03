@@ -18,7 +18,7 @@
    ```bash
    appAttack_toolkit
    ```
-
+---
 
 ## For Devs
 ### Read the [Documentation](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/documentation.md)
