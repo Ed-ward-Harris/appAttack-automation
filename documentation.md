@@ -1,6 +1,6 @@
 ## About  
 
-The AppAttack Toolkit is a versatile, terminal-based tool for penetration testing and secure code review. It simplifies vulnerability assessments by providing step-by-step guides for each included tool and supports automated web application scans. Additionally, the toolkit uses AI to analyze tool outputs, providing insights to enhance understanding and reporting.
+The AppAttack Toolkit is a versatile, terminal-based tool for penetration testing and secure code review. It simplifies vulnerability assessments by providing step-by-step guides for each included tool and supports automated web application scans. Additionally, the toolkit uses AI to analyse tool outputs, providing insights to enhance understanding and reporting.
 
 ---
   
