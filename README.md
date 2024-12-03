@@ -21,7 +21,8 @@
 ---
 
 ## For Devs
-### Read the [Documentation](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/documentation.md)
+### Read the [Documentation](https://github.com/Ed-ward-Harris/appAttack-automation/blob/main/documentation.md)!
+
 You're better off running ./main for testing additions to the tool. Otherwise you have to rebuild it each time to test. Make sure you also reinstall to make sure the install process isn't broken. 
 
 ### To reinstall 
